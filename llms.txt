@@ -1,0 +1,100 @@
+# GLM-5.3 — Lightweight Coding Client
+
+> Lightweight, one-click native desktop client (Windows and Mac) for GLM-5.3, Z.AI's open-weights coding model released August 14, 2026. Positioned strictly as a coding and agentic development assistant. GLM-5.3 ranks #1 among open-weights coding models on benchmarks like Terminal-Bench 3.0 and Agents' Last Exam, achieving a 50% coding improvement over GLM-5.2 through post-training alone (same 743B base). On Z.AI's own Code Bench (High tier) it reaches 31.4% accuracy versus Claude Opus 4.8's 29.5%, while using roughly 50,000 tokens per task against Opus's ~120,000 — higher accuracy at less than half the tokens. Has a 1M-token context window and is tuned for a strong vibe-coding experience. This client removes the setup friction of the official API/CLI/GLM Coding Plan (points system, weekday peak windows) with a signed one-click installer, a local project library, and free access through October. Open weights are staged for release in the following weeks; app users get early access to the local build.
+
+## Model: GLM-5.3
+
+- **Developer:** Z.AI (formerly Zhipu AI), released August 14, 2026
+- **Base:** same 743B base as GLM-5.2; all gains from extended post-training (SAO RL, slime framework, executable task environments)
+- **Context:** 1,000,000 tokens
+- **Coding rank:** #1 open-weights coding model (Z.AI, on Terminal-Bench 3.0, Agents' Last Exam)
+- **Improvement:** +50% coding capability over GLM-5.2 (Z.AI internal)
+- **Efficiency:** Code Bench High 31.4% vs Opus 4.8 29.5%, at ~50k tokens/task vs ~120k — higher accuracy, ~half the tokens
+- **Benchmark jumps:** Terminal-Bench 3.0 4.6->28.3, DeepSWE 46.2->66.9, SWE-Marathon 19.4->42.5
+- **Vibe coding:** Z.AI states best vibe-coding experience among Chinese models
+- **API:** OpenAI-compatible and Anthropic-compatible; works in Claude Code, Cursor, Cline
+- **Open weights:** staged release in the weeks after launch
+- **Access:** Z.AI API, GLM Coding Plan, ZCode
+
+## Scope
+
+- Positioned exclusively as a coding / agentic development assistant
+- Use cases: vibe-coding whole apps, large-codebase work, long-horizon agentic dev tasks, cross-file refactors, migrations, debugging
+- Not positioned for or marketed around security/vulnerability tooling
+
+## Client Advantages
+
+- **One-click install:** no terminal, Docker, API setup, or points system
+- **Free through October:** full GLM-5.3 access, no card, no peak-window rationing
+- **Lightweight & instant:** small install, fast launch, cloud generation
+- **Local project library:** code, prompts, history stay on the user's machine, organized by project
+- **Token-smart:** light work (previews, history, project management) local, budget spent only on real generation
+- **Early access to weights:** first in line for local build when open weights release
+
+## Use Cases
+
+- Vibe-code full applications conversationally
+- Work across large codebases with 1M-token context
+- Hand off long-horizon, agentic, multi-step development tasks
+- Cross-file refactors, large-repo understanding, multi-module debugging
+- Or drive GLM-5.3 from Cursor / Claude Code / Cline via compatible API
+
+## Pricing Model
+
+- App: Free, MIT-licensed
+- GLM-5.3 access: free through October via this project
+- After October: user's own Z.AI key; app stays free, local processing stretches usage
+- No points system, no subscription in-app
+
+## Platform and Distribution
+
+- **Windows:** 10 and 11, signed .exe installer
+- **macOS:** 12+, notarized universal binary (Apple Silicon + Intel)
+- **Generation:** cloud (Z.AI) now; local build after open-weights release
+- **Distribution:** GitHub releases, SHA-256 checksums published
+
+## Privacy and Security Model
+
+- Local project library, prompts, and history stored on user's machine
+- Generation prompts routed to GLM-5.3 under Z.AI's terms (required to generate)
+- Signed installers with published SHA-256 checksums
+- MIT-licensed client, auditable source
+
+## Target Audience
+
+- Developers wanting the top open-weights coding model without CLI/Docker/points-system setup
+- Vibe coders building apps conversationally
+- Developers working on large codebases needing 1M context
+- Cost-conscious developers wanting Opus-beating accuracy at lower token cost
+- Users wanting a free coding assistant through October
+- Developers who prefer a standalone app over wiring GLM into Cursor/Claude Code
+
+## Comparable Tools
+
+- **GLM Coding Plan / ZCode (official)** — Z.AI's official GLM-5.3 access, points system, peak windows
+- **Cursor / GitHub Copilot** — closed-model IDE assistants, subscription
+- **Claude Code (Opus 4.8)** — higher token cost per task
+- **Kimi K3 / Qwen3.8 / other open models** — competing coding-capable models
+
+This client's positioning: the #1 open-weights coding model in a lightweight one-click app, free through October, with a local project library and token-efficient workflow — a packaging the official points-based access doesn't offer.
+
+## Repository
+
+- **Source:** https://github.com/GLM-5-3/GLM-5.3
+- **Releases:** https://github.com/GLM-5-3/GLM-5.3/releases
+- **Issues:** https://github.com/GLM-5-3/GLM-5.3/issues
+- **License:** MIT
+
+## Common Questions
+
+**Is it free?** Free through October, no card, no points system. After: your own Z.AI key; app stays free.
+
+**Why GLM-5.3 for coding?** #1 open-weights coding model, +50% over GLM-5.2, more accurate than Opus 4.8 at ~half the tokens, 1M context, best-in-class vibe coding.
+
+**Is it safe to install?** Signed, notarized, checksummed, source on GitHub.
+
+**Powerful computer needed?** No — lightweight, cloud generation. Local build coming with open weights.
+
+**Use in Cursor/Claude Code?** Yes — OpenAI/Anthropic-compatible API. This app is the zero-setup standalone option.
+
+**Mac?** Yes, notarized universal binary.
