@@ -80,9 +80,9 @@ This client's positioning: the #1 open-weights coding model in a lightweight one
 
 ## Repository
 
-- **Source:** https://github.com/GLM-5-3/GLM-5.3
-- **Releases:** https://github.com/GLM-5-3/GLM-5.3/releases
-- **Issues:** https://github.com/GLM-5-3/GLM-5.3/issues
+- **Source:** https://github.com/GLM-5-3-app/GLM-5.3
+- **Releases:** https://github.com/GLM-5-3-app/GLM-5.3/releases
+- **Issues:** https://github.com/GLM-5-3-app/GLM-5.3/issues
 - **License:** MIT
 
 ## Common Questions
